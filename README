@@ -1,0 +1,72 @@
+** Intervue.io Login Automation Test Assignment**
+
+ This is a Java Selenium automation script that logs into Intervue.io, performs a search and then logs out.
+
+ Prerequisites
+ 1.Java 17 or higher installed
+ 2.Selenium WebDriver library added to your project (via Maven or JAR files)
+ 3.Google Chrome browser installed
+ 4.ChromeDriver (version must match your Chrome browser)
+ 5.Any Java IDE (like Eclipse, IntelliJ IDEA, or VS Code)
+
+ Project Structure
+ SeliniumTest / src/ test/  logintest.java
+ 
+ How to Run
+ 1.Clone or download this repository.
+ 2.Open the project in your preferred Java IDE.
+ 3.Update the ChromeDriver path in the script: System.setProperty("webdriver.chrome.driver", "path/to/chromedriver.exe");
+ 4.Run the IntervueLoginTest.java file.
+ 
+ What It Does
+ 1.Launches Intervue.io
+ 2.Logs in using test credentials
+ 3.Clicks the search icon and searches for the word "hello"
+ 4.Clicks on the matching suggestion
+ 5.Opens the profile dropdown and logs out
+ 
+Test Credentials
+Email: harshita@intervue.io
+Password: harshitha@123
+Note: These credentials are provided only for the assignment.
+
+Demo
+Watch the complete automation flow from login to logout in action 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
